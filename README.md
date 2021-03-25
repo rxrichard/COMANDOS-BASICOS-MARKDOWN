@@ -15,7 +15,7 @@ Riscado:  ~~
 Resultado: ~~Riscado~~
 
 
-# TIPOS DE TITULO
+## TIPOS DE TITULO
 
 # Titulo 1
 Titulo: # com espaço em inicio de linha Ex: `# Titulo`
@@ -45,8 +45,9 @@ Como criar lista demarcada: ` - ou *`
    * Funciona 3 espaços para sub demarcar
       * E assim por diante com 3 espaços
 
-      
-# LISTA DE TAREFAS
+   
+   
+## LISTA DE TAREFAS
 
 - [ ] Criar lista de tarefas sem marcar conclusão `- [ ] `
 - [x] Criar lista de tarefas marcar como concluída `- [x] `
@@ -54,7 +55,7 @@ Como criar lista demarcada: ` - ou *`
 
 
 
-# Tabelas
+## Tabelas
 A criação de tabelas é dado pelos Pipes e nome de colunas  ` Numero | Nome | Nota`. 
 Para a criação é necessário utilizar também `---|---|---` 
  Ex:
@@ -64,7 +65,7 @@ Num | Nome | Nota
 2| João| 8
 
 
-# COMANDOS E ESCRITAS DE CÓDIGO
+## COMANDOS E ESCRITAS DE CÓDIGO
 
 Para utilizar o comando você utiliza o texto entre as crase 
 Ex: `´document.getElementById´ `
@@ -82,20 +83,22 @@ Ex em Py:
 
 ```
 
-# EMOJIS 😉 🖖 
+## EMOJIS 😉 🖖 
 
 Para utilizar os emojis você utiliza ` : NOME DO EMOJI`
  Ex: 🖖  = ` : vulcan_salute`
 [Link para todos os emojis](https://github.com/ikatyang/emoji-cheat-sheet)
 
 
-# Imagens
+## Imagens
 Para adicionar uma imagem basta arrastar a imagem para o campo de texto 
-ou caso utilize uma imagem da internet basta utilizar `![NOME DA IMAGEM](link da imagem)`
+ou caso utilize uma imagem da internet basta utilizar 
+`![NOME DA IMAGEM](link da imagem)`
 Ex: 
 ![assinatura_fundo_branco](https://user-images.githubusercontent.com/33405812/112546300-0a29f780-8d98-11eb-9375-61dff99dbac2.png)
 
-# Link
+## Link
 O link é muito semelhante a adicionar a imagem, a única diferença é que no link removemos o ` ! `  do inicio do comando
-Para criar o arquivo utilize o [ ] para colocar o texto e logo após utilizar ( ) para adicionar o link Ex:`[ Seu texto ] ( sua url aqui ) `
+Para criar o arquivo utilize o [ ] para colocar o texto e logo após utilizar ( ) para adicionar o link 
+Ex:`[ Seu texto ] ( sua url aqui ) `
 [Acesse o meu GitHub](http://rxrichard.github.io)
