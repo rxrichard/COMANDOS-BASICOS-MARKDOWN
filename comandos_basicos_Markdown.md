@@ -99,3 +99,27 @@ Ex:
 O link é muito semelhante a adicionar a imagem, a única diferença é que no link removemos o ` ! `  do inicio do comando
 Para criar o arquivo utilize o [ ] para colocar o texto e logo após utilizar ( ) para adicionar o link Ex:`[ Seu texto ] ( sua url aqui ) `
 [Acesse o meu GitHub](http://rxrichard.github.io)
+
+
+# Diagramas
+>Para voce aprender mais como funciona acesse [Mermaid](https://mermaidjs.github.io/). Podemos utilizar como exemplo um diagrama sequencial:
+
+```mermaid
+sequenceDiagram
+Maria ->> João: Oi João, tudo bem?
+João-->>Pedro: Como você está Pedro?
+João--x Maria: Nunca estive melhor, obrigado!
+João-x Pedro: Estou ótimo!
+Note right of Pedro: João pode escrever<br/>um texto que nao caiba<br/>em apenas uma linha<br/>ou uma anotação
+
+João-->Maria: Vinculando Pedro...
+Maria->Pedro: Sim... Pedro, como voce está?
+
+# Diagramas
+
+```mermaid
+graph LR
+A[Square Rect] -- Texto  --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
